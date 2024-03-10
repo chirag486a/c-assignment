@@ -1,9 +1,12 @@
+//	Averaging student exam score
 #include <stdio.h>
 
 int main() {
 
-    int numSubjects = 8;
+    int numSubjects = 6;
     float totalScore = 0;
+
+		printf("To find Average score\n");
 
     for (int i = 1; i <= numSubjects; i++) {
         float subjectScore;

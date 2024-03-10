@@ -1,3 +1,4 @@
+//	9) Compound interest calculator
 #include <stdio.h>
 #include <math.h>
 // gcc -o out main.c -lm
@@ -14,7 +15,7 @@ int main() {
     printf("Enter the time period (in years): ");
     scanf("%f", &time);
 
-    compoundInterest = principal * (pow((1 + rate / 100), time) - 1);
+    compoundInterest = (principal * (pow((1 + rate / 100), time))) - principal;
 
 
     printf("Compound Interest: %.2f\n", compoundInterest);
