@@ -1,3 +1,4 @@
+//	17) Generate consecuctive integers quantities
 #include <stdio.h>
 
 int main() {

@@ -1,3 +1,4 @@
+// 14) calculate total expense
 #include <stdio.h>
 
 int main() {

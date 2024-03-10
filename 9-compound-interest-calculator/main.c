@@ -18,7 +18,7 @@ int main() {
     compoundInterest = (principal * (pow((1 + rate / 100), time))) - principal;
 
 
-    printf("Compound Interest: %.2f\n", compoundInterest);
+    printf("Compound Interest: %.3f\n", compoundInterest);
 
     return 0;
 }

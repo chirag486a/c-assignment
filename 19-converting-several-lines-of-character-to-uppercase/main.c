@@ -22,7 +22,7 @@ int main() {
         for (int i = 0; inputLine[i] != '\0'; i++) {
             // Check if the character is a lowercase letter
             if (inputLine[i] >= 'a' && inputLine[i] <= 'z') {
-                inputLine[i] = inputLine[i] - ('a' - 'A');
+                inputLine[i] = inputLine[i] - 32;
             }
         }
 
